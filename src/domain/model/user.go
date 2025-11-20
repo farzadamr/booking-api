@@ -2,11 +2,11 @@ package model
 
 type User struct {
 	BaseModel
-	Name      string
-	Email     string
-	Password  string
-	Enabled   bool
-	UserRoles *[]UserRoles
+	Name         string
+	MobileNumber string
+	Password     string
+	Enabled      bool
+	UserRoles    *[]UserRoles
 }
 
 type Role struct {
